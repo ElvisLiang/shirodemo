@@ -20,6 +20,9 @@ public class ShiroConfig {
         return hashedCredentialsMatcher;
     }
 
+
+
+
     @Bean
     public UserRealm userRealm(){
         UserRealm userRealm = new UserRealm();
